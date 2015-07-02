@@ -1,0 +1,3 @@
+> birth<-read.csv("http://datasets.flowingdata.com/birth-rate.csv")
+> hist(birth$X1960)
+> plot(birth$X1960,birth$X2008)
