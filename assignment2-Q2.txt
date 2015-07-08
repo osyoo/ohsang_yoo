@@ -1,0 +1,17 @@
+male<-c(220.1,218.6,229.6,228.8,222,224.1,226.5)
+female<-c(223.4,221.5,230.2,224.3,223.8,230.8)
+
+t.test(male,female,alternative = "two.sided")
+
+Welch Two Sample t-test
+
+data:  male and female
+t = -0.63184, df = 10.942, p-value = 0.5405
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+  -6.386747  3.539128
+sample estimates:
+  mean of x mean of y 
+224.2429  225.6667 
+
+#accept null hypothesis

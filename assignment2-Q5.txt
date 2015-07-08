@@ -1,0 +1,3 @@
+Standard deviation is a measure of dispersion within your data set 
+whereas standard error is the level of error (dispersion) of your data from 
+a population mean
